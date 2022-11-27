@@ -1,0 +1,49 @@
+*{
+    background: #212428;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 30px ;
+}
+.nav-item a{
+    color: #c4cfde;
+}
+.nav-item .active{
+    color: #fff !important;
+}
+.nav-item .nav-link:hover{
+    color: red !important;
+    
+}
+.header_center{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header_center .cart {
+    height: 45px;
+    min-width: 45px;
+    border-radius: 50%;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    margin-right: 15px;
+}
+.header_center .cart a {
+    color: #fff;
+}
+.header_center .buy {
+    min-height: 60px;
+    min-width: 120px;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    border-radius: 6px;
+}
+.header_center .buy a{
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
